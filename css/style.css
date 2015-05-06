@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image:url(../images/bg.jpg);
+	background-position: fixed center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden;
+}
+#logo {
+	 display: none;
+}
+#logo2 {
+	 display: block; float: left;
+}
+.twitterdiv {
+	display: block;
+}
+
+.colorkey {
+	height: 20px;
+	width: 20px;
+	display: block;
+	margin-right: 5px;
+	float: left;
+}
+.red {
+	background-color: #d9534f;
+}
+.textdiv {
+	display: block;
+	background-color: #FFF;
+	border-radius: 5px;
+	border: 1px solid #e8e8e8;
+	margin-bottom: 5px;
+}
+.contactbox {
+	display: block;
+	background-color: #FFF;
+	border-radius: 5px;
+	border: 1px solid #e8e8e8;
+	padding: 5px 5px 5px 5px;
+}
+.twitterbox {
+	display: none;
+	width: 100%;
+}
+.socialboxes {
+	display: block;
+	width: 100%;
+	background-color: #FFF;
+	border-radius: 5px;
+	border: 1px solid #e8e8e8;
+	margin-bottom: 5px;
+	display: none;
+}
+#welcometext {
+	 display: none; font-family: 'Alegreya Sans SC'; font-size: 60px; font-weight: 300; padding-top: 20%;
+}
+#rightshine {
+	display: block; position:absolute; left: 30px; top: -400px; z-index: -100;
+}
+#middlerightshine {
+	display: block; position:absolute;   left: 0px; top: 200px; z-index: -100;
+}
+#topleftshine {
+	display: block; position:absolute;   left: -600px; top: -300px; z-index: -100;
+}
+#bottomleftshine {
+	display: block; position:absolute; left: -1400px; top: -200px; z-index: -100;
+}
+#leftshine {
+	display: block; position:absolute; left: -1400px; top: -200px; z-index: -100;
+}
+.under-shadow {
+	display: block;
+}
+.project1 {
+	display: block;
+	z-index: 1000;
+}
+.project2 {
+	display: block;
+	z-index: 1000;
+}
+.project3 {
+	display: block;
+	z-index: 1000;
+}
+.project4 {
+	display: block;
+	z-index: 1000;
+}
+.project5 {
+	display: block;
+	z-index: 1000;
+	margin-top:50px;
+}
+.project6 {
+	display: block;
+	z-index: 1000;
+	margin-top:50px;
+}
+.project7 {
+	display: block;
+	z-index: 1000;
+	margin-top:50px;
+}
+.project8 {
+	display: block;
+	z-index: 1000;
+	margin-top:50px;
+}
+.websitepicture {
+	display: block;
+}
+.footertext {
+	display: block;
+	width: 400px;
+	height: 100px;
+	padding-top: 60px;
+	font-size: 20pt; color: #191919; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 300; text-decoration: none;
+	background-image: url(../images/footershadow.png);
+}
+.box-shadow {
+-webkit-box-shadow: 0px 0px 39px 6px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 0px 39px 6px rgba(0,0,0,0.26);
+box-shadow: 0px 0px 39px 6px rgba(0,0,0,0.26);
+}
+/**LINK BAR **/
+.links {
+	display: none; float: left; z-index: 10;
+}
+.links a {
+	font-size: 20pt; color: #191919; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 300; text-decoration: none;
+}
+.links a:hover {
+	font-size: 20pt; color: #000; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 400; text-decoration: none;
+}
+.personal_photo {
+	float: left;
+	display: none;
+}
+.offer_photo {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.skills_photo {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.infofont {
+	display: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 400; font-size: 30pt;
+	text-align: center;
+}
+.offerfont {
+	display: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 400; font-size: 30pt;
+	text-align: center;
+}
+.skillfont {
+	display: none;
+	font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 400; font-size: 30pt;
+	text-align: center;
+}
+.who_font {
+	 display: block; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 400; font-size: 75pt; margin-left: auto; margin-right: auto; text-align: center;
+}
+.what_font {
+	 display: block; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 400; font-size: 75pt; margin-left: auto; margin-right: auto; text-align: center;
+}
+.myskills_font {
+	 display: block; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 400; font-size: 75pt; margin-left: auto; margin-right: auto; text-align: center;
+}
+.shown {
+	display: inline-block;
+}
+
+.pageheader_font {
+	 display: block; font-family: 'Yanone Kaffeesatz', sans-serif; font-weight: 400; font-size: 75pt; margin-left: auto; margin-right: auto; text-align: center;
+}
+#robfont {
+	font-size: 92pt;
+	margin-top: -50px;
+}
