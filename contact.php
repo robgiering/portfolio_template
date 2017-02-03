@@ -24,19 +24,19 @@ if(isset($_POST['name'], $_POST['email'], $_POST['message'])) {
 		$m->isSMTP();
 		$m->SMTPAuth = true;
 		$m->Host = 'a2plcpnl0144.prod.iad2.secureserver.net';
-		$m->Username = 'contact@robgiering.com';
-		$m->Password = '198338rjg';
+		$m->Username = 'YOURCONTACTEMAIL';
+		$m->Password = 'YOURGOOGLEPW';
 		$m->SMTPSecure = 'ssl';
 		$m->Port = 465;
 
 		$m->isHTML();
 
-		$m->Subject = 'robgiering.com Contact Form  - From: ' . $fields['name'];
+		$m->Subject = 'PORTFOLIO Contact Form  - From: ' . $fields['name'];
 		$m->Body = 'From: ' . $fields['name'] . ' (' . $fields['email'] . ')<p>' . $fields['message'] . '</p>';
 		
 		$m->FromName = $fields['name'];
 
-		$m->AddAddress('robgieringdesign@gmail.com', 'Rob Giering');
+		$m->AddAddress('EMAILADDRESS', 'NAME');
 
 		if($m->send()) {
 			header('Location: thanks.php');
